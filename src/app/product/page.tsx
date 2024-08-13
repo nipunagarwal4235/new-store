@@ -1,8 +1,3 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/EFbBVvYY1hk
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 'use client';
 
 import { Label } from '@/components/ui/label';
@@ -15,7 +10,7 @@ import {
   SelectItem,
 } from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
-import { Separator } from '@/components/ui/seperator';
+import { Separator } from '@/components/ui/separator';
 import Link from 'next/link';
 import React from 'react';
 
