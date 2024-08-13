@@ -15,6 +15,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
+import Search from '@/components/Search';
 
 export default function Header() {
   const { setTheme } = useTheme();
@@ -88,6 +89,7 @@ export default function Header() {
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
+            <Search />
           </div>
         </SheetContent>
       </Sheet>
@@ -164,6 +166,7 @@ export default function Header() {
           </DropdownMenu>
         </NavigationMenuList>
       </NavigationMenu>
+      <Search />
       <div className="ml-auto flex gap-2">
         <Button variant="outline">Sign in</Button>
         <Button>Sign Up</Button>
